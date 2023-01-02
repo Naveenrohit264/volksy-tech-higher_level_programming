@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-def print_last_digit(number):
+def print_last_digit():
     last = number % 10
-print_last_digit()
