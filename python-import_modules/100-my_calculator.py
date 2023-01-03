@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+from calculator_1 import add, sub, mul, div
 if __name__ == "__main__":
-    def magic_calculation(a, b, c):
-        if a < b:
-            return(c)
-        if c > b:
-            return (a + b)
-        else:
-            return ((a * b) - c)
+        a = 10
+        b = 5
+print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
+print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
+print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
