@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def text1():
     print('#pythoniscool')
-text1()
+print(text1())
