@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
-    sorted_by_key = dict(sorted(a_dictionary.items()))
-    return sorted_by_key
+    sortedby = sorted(a_dictionary.item(), key = lambda t: t[0])
+    return sortedby
