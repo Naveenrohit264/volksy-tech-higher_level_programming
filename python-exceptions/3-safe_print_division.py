@@ -5,4 +5,4 @@ def safe_print_division(a, b):
     except:
         pass
     finally:
-        return "{}.format(c)"
+        return "{}".format(c)
