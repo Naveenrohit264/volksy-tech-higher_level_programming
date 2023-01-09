@@ -2,7 +2,7 @@
 def safe_print_integer_err(value,message):
     for i in value:
         try:
-            print("{}".format(value))
+            print("{:d}".format(value))
             return True
         except (ValueError,IndexError):
             raise (message)
