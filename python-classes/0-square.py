@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 class Square:
-    """An empty square class"""
+    """an empyt square class"""
     pass
