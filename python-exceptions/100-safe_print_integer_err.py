@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 def safe_print_integer_err(value,message):
-    for i in value:
         try:
             print("{:d}".format(value))
             return True
-        except (ValueError,IndexError):
-            raise (message)
+        except (TypeError, ValueError) as e:
+            sys.stderr.write("Exception: {}\n".format(e))
             return False
-    return value
