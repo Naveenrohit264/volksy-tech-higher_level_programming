@@ -3,12 +3,10 @@
 
 
 class Square:
-    
-
     """square class"""
-    def __init__(self, size=0):
-       
 
+
+    def __init__(self, size = 0):
         """constructor"""
         if type(size) is not int:
             raise TypeError("size must be an integer")
