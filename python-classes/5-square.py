@@ -20,8 +20,7 @@ class Square:
             for i in range(self.__size):
                 for j in range(self.__size):
                     print('#', end='')
-                print()
-    
+                print() 
     @property
     def size(self):
         """Retrieve size"""
@@ -29,9 +28,9 @@ class Square:
 
     @size.setter
     def size(self, value):
-       """Sets size and handles errors"""
-       if type(value) is not int:
-           raise TypeError("size must be an integer")
-       if value < 0:
-           raise ValueError("size must be >= 0")
-       self.__size = value
+        """Sets size and handles errors"""
+        if type(value) is not int:
+            raise TypeError("size must be an integer")
+        if value < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = value
