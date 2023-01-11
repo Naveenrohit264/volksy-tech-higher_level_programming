@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""creatign class"""
+"""creating class"""
 
 
 class Square:
@@ -30,9 +30,9 @@ class Square:
     def size(self):
         """Retrieve size"""
         return (self.__size)
-   
-   @size.setter
-   def size(self, value):
+    
+    @size.setter
+    def size(self, value):
        """Sets size and handles errors"""
        if type(value) is not int:
            raise TypeError('size must be an integer')
