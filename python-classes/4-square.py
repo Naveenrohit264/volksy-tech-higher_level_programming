@@ -8,7 +8,7 @@ class Square:
         """initialize data"""
         self.__size = size
 
-    def area(self)i:
+    def area(self):
         """return square area"""
         return(self.__size ** 2)
     
