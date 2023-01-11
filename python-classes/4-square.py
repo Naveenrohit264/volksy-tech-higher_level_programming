@@ -2,7 +2,7 @@
 """creating a class"""
 
 class Square:
-    """creating class for square"""
+    """Square with private instance attribute and instantiation"""
 
     
     def __init__(self, size=0):
