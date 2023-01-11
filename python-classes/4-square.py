@@ -3,16 +3,21 @@
 
 
 class Square:
-    """clas for square"""
+    """Square with private instance attribute and instantiation"""
     def __init__(self, size=0):
         """initialize data"""
         self.__size = size
+
     def area(self)i:
         """return square area"""
         return(self.__size ** 2)
+    
+    @property
     def size(self):
         """retrive size"""
         return(self.__size)
+
+    @size.setter
     def size(self,value):
         """handling errors"""
         if type(value) is not int:
