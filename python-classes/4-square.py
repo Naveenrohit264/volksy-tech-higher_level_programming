@@ -3,22 +3,24 @@
 
 class Square:
     """creating class for square"""
+
+    
     def __init__(self, size=0):
-        """constructor"""
+        """Initializing data"""
         self.__size = size
 
     def area(self):
-        """area of square"""
-        return(self.__size * self.__size)
-
+        """return area of square"""
+    return(self.__size * self.__size)
+    
     @property
     def size(self):
-        """size private"""
+        """retrieve size"""
         return(self.__size)
-
-     @size.setter
+   
+    @size.setter
     def size(self, value):
-        """validation"""
+        """set size and handle error"""
         if type(value) is not int:
             return TypeError("size must be an integer")
         if value < 0:
