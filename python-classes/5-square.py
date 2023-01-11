@@ -2,7 +2,6 @@
 """creating class"""
 
 
-
 class Square:
     """Square with private instance attribute and instantiation"""
     def __init__(self, size=0):
@@ -27,7 +26,7 @@ class Square:
     def size(self):
         """Retrieve size"""
         return (self.__size)
-   
+
     @size.setter
     def size(self, value):
        """Sets size and handles errors"""
