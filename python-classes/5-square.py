@@ -21,7 +21,7 @@ class Square:
                 for j in range(self.__size):
                     print('#', end='')
                 print()
-    
+
     @property
     def size(self):
         """Retrieve size"""
