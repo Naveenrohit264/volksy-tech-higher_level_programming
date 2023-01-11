@@ -16,7 +16,6 @@ class Square:
     def size(self):
         """retrieve size"""
         return(self.__size)
-    
     @size.setter
     def size(self, value):
         """set size and handle error"""
