@@ -11,10 +11,12 @@ class Square:
         """area of square"""
         return(self.__size * self.__size)
 
+    @property
     def size(self):
         """size private"""
-        self.__size = size
+        return(self.__size)
 
+     @size.setter
     def size(self, value):
         """validation"""
         if type(value) is not int:
