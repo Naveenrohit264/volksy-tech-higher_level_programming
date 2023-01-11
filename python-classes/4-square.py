@@ -3,17 +3,17 @@
 
 class Square:
     """creating class for square"""
-    def __init__(self):
+    def __init__(self, size=0):
         """constructor"""
-        self.__size = size
-
-    def size(self):
-        """size private """
         self.__size = size
 
     def area(self):
         """area of square"""
         return(self.__size * self.__size)
+
+    def size(self):
+        """size private"""
+        self.__size = size
 
     def size(self, value):
         """validation"""
