@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""function to see if 
+"""Defines function to see if 
    object is exactly an instance of class"""
 
 
