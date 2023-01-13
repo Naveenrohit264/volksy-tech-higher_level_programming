@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-"""creating class"""
+""" function to returns the list of available attributes and methods of an object"""
 
 
-class object:
-    """class for objects"""
-
-    def lookup(obj):
-        """method"""
+def lookup(obj):
+        """returns the list of available attributes and methods of an object"""
         return dir(obj)
