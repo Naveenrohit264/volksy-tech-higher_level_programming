@@ -1,3 +1,10 @@
 #!/usr/bin/python3
-def lookup(obj):
-    return dir(obj)
+"""creating class"""
+
+
+class object:
+    """class for objects"""
+
+    def lookup(obj):
+        """method"""
+        return dir(obj)
