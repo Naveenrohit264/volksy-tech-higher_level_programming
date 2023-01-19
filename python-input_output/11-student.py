@@ -30,4 +30,4 @@ class Student:
         Function that replaces all attributes of the
         Student instance.
         """
-        self._dict_.update(json)
+        self.__dict__.update(json)
