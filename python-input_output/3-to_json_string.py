@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""loads"""
+"""JSON"""
 import json
 
 
 def to_json_string(my_obj):
-    """Loads"""
-    return (json.loads(my_obj)
+    """JSON"""
+    return (json.dumps(my_obj))
