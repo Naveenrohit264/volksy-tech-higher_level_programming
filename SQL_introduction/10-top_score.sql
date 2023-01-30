@@ -1,2 +1,2 @@
 -- displaying specific data
-SELECT score,name from second_table order by desc id;
+SELECT score,name FROM second_table ORDER BY DESC id;
