@@ -1,2 +1,2 @@
-"""showing databases"""
+--showing databases
 SHOW DATABASES
