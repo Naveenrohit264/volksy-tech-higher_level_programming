@@ -1,2 +1,2 @@
 -- grouping
-SELECT score, count(*) as NUM FROM second_table GROUP BY score DESC;
+SELECT score, COUNT(*) as NUM FROM second_table GROUP BY name ORDER BY score DESC;
