@@ -1,5 +1,5 @@
 #!/usr/bin/node
 function add(){
-	return a + b;
+	return number + number;
 }
-console.log(add(a, b));
+console.log(add(number, number));
