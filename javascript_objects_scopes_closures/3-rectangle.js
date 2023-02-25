@@ -16,5 +16,3 @@ class Rectangle {
 }
 
 module.exports = Rectangle;
-Footer
-© 2023 GitHub, Inc.
